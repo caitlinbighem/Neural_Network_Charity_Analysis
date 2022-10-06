@@ -7,8 +7,11 @@ The purpose of this analysis is to evaluate the impact of every donation and eva
 
 ### Data Preprocessing
 * **What variable(s) are considered the target(s) for the model?** 
+
 The target is the "IS_SUCCESSFUL" because it consists of the data that determines whether the donations were used effectively. The target variable is the dependent variable, y.  
+
 * **What variable(s) are considered to be the features for the model?** 
+
 The variables below are considered to be the features for the model: 
     - APPLICATION_TYPE
     - AFFILIATION
@@ -20,17 +23,24 @@ The variables below are considered to be the features for the model:
     - SPECIAL_CONSIDERATIONS
     - ASK_AMT
 These variables are the independent variables, x.
+
 * **What variable(s) are neither targets nor features, and should be removed from the input data?** 
+
 The identification columns EIN and NAME were dropped, as they do not contribute any useful information when completing the analysis.
 
 ### Compiling, Training, and Evaluating the Model
 * **How many neurons, layers, and activation functions were selected for the neural network model, and why?** 
+
 First Deep neural network model: 80 neurons were in the first hidden layer and 30 neurons were in the second hidden layer 
 Second Deep neural network model: 100 neurons were in the first hidden layer, 30 neurons were in the second hidden layer and 10 neurons were in the third hidden layer.
 An advantage for using the sigmoid activation function is that it identifies clear predictions from the input values. 
+
 * **Was target model performance achieved?** 
+
 Performance of 75% accuracy was not achieved by the target model, as it attained 79.25%. 
+
 * **What steps were taken to try and increase model performance?** 
+
 While trying to increase model performance, a third hidden layer was added with 10 neurons and the activation functions were updated. The first hidden layer retained the ReLU activation function, while the second and third layers adapted to the Sigmoid activation function. Unfortunately, these updates did not yeild a performance of 75%. 
 
 ## Summary
