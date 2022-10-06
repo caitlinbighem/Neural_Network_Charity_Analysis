@@ -22,6 +22,7 @@ The variables below are considered to be the features for the model:
 - INCOME_AMT
 - SPECIAL_CONSIDERATIONS
 - ASK_AMT
+
 These variables are the independent variables, x.
 
 * **What variable(s) are neither targets nor features, and should be removed from the input data?** 
