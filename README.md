@@ -13,15 +13,15 @@ The target is the "IS_SUCCESSFUL" because it consists of the data that determine
 * **What variable(s) are considered to be the features for the model?** 
 
 The variables below are considered to be the features for the model: 
-    - APPLICATION_TYPE
-    - AFFILIATION
-    - CLASSIFICATION
-    - USE_CASE
-    - ORGANIZATION
-    - STATUS
-    - INCOME_AMT
-    - SPECIAL_CONSIDERATIONS
-    - ASK_AMT
+- APPLICATION_TYPE
+- AFFILIATION
+- CLASSIFICATION
+- USE_CASE
+- ORGANIZATION
+- STATUS
+- INCOME_AMT
+- SPECIAL_CONSIDERATIONS
+- ASK_AMT
 These variables are the independent variables, x.
 
 * **What variable(s) are neither targets nor features, and should be removed from the input data?** 
